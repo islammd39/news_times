@@ -10,5 +10,5 @@
 }
 
 .list-sty{
-    text-decoration: none;
+    display: flex;
 }

@@ -6,13 +6,19 @@ const loadCetegory = async()=>{
     const url = `https://openapi.programming-hero.com/api/news/categories`;
     const res = await fetch(url);
     const data = await res.json();
-   console.log(data.data.news_category);
+    displayNews(data.data.news_category);
+
 }
 
 const displayNews = news =>{
-    
-
+    const userId = document.getElementById('user-id')
+    news.forEach(createNews =>{
+        const newsDiv = document.createElement('ul');
+        newsDiv.innerHTML = `
+        <l1><a onclick ="loadCart(${createNews.category_id})" >${createNews.category_name}</a></l1>
+        `;
+        userId.appendChild(newsDiv)
+    });
 }
-
 
 loadCetegory()
