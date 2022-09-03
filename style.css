@@ -6,5 +6,9 @@
 }
 
 .navbar-brand{
-    font-size: 2rem;
+    font-size: 1.5rem;
+}
+
+.list-sty{
+    text-decoration: none;
 }
