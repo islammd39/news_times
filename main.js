@@ -15,7 +15,7 @@ const displayNews = news =>{
     news.forEach(createNews =>{
         const newsDiv = document.createElement('ul');
         newsDiv.innerHTML = `
-        <l1 class="nav-item"><a href="#" class='text-de' onclick ="loadCart(${createNews.category_id})" >${createNews.category_name}</a></l1>
+        <l1 class="nav-item"><a href="#" class='text-de' onclick ="loadCart(${createNews.category_id})">${createNews.category_name}</a></l1>
         `;
         userId.appendChild(newsDiv)
     });

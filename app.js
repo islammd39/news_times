@@ -19,9 +19,12 @@ const loadAllNews = alls =>{
          <p class="card-text">${allNew.details}</p>
          <img src="${allNew.author.img}" class="card-img" alt="...">
          <p class="text">${allNew.author.name}</p>
+         <p class="publish-text">${allNew.author.published_date}</p>
+         <p class="view-text">total view ${allNew.total_view}</p>
+         <button class = "btn btn-primary">click</button>
        </div>
      </div>
-    
+     
        `;
       allUpdateNews.appendChild(div)
    });

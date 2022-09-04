@@ -21,11 +21,22 @@
     text-align: justify;
 }
 .card-img{
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
     display: inline;
 }
 .text{
     display: inline;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.publish-text{
+    font-size: 12px;
+    margin-left: 50px;
+}
+.view-text{
+    display: inline;
+    color: brown;
+    margin-left: 200px;
 }
