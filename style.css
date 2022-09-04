@@ -16,3 +16,16 @@
 .text-de{
     text-decoration: none;
 }
+.card-text{
+    font-size: 14px;
+    text-align: justify;
+}
+.card-img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline;
+}
+.text{
+    display: inline;
+}
