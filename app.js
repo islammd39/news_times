@@ -21,7 +21,8 @@ const loadAllNews = alls =>{
          <p class="text">${allNew.author.name}</p>
          <p class="publish-text">${allNew.author.published_date}</p>
          <p class="view-text">total view ${allNew.total_view}</p>
-         <button class = "btn btn-primary">click</button>
+         <button type = "button" class = "btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">click</button>
+         
        </div>
      </div>
      
